@@ -1,0 +1,125 @@
+# SCInstreamSDK
+
+## 1.7.5 - 18.02.2014
+
+ - fixed a multithreading issue
+
+## 1.7.4 - 29.01.2014
+
+ - fixed bugs with the statusbar in iOS7 with and after a clickthru
+
+## 1.7.3 - 07.11.2013
+
+ - bugfixes and improvements
+
+## 1.7.2 - 29.10.2013
+
+ - bugfixes and improvements
+
+## 1.7.1 - 18.10.2013
+
+ - bugfixes and improvements
+
+## 1.7.0 - 18.09.2013
+
+ - iOS7 compatibilty
+ - 64 bit slice added to support the new iPhone 5s
+ - bugfixes and improvements
+
+## 1.6.4 - 06.08.2013
+
+ - new config property showLoadingView to display a loading View for the preroll slot before the ad starts
+ - added stop to SCInstreamController
+ - ClickThru WebBrowser was always launched in Portrait on iPad with iOS 5.x
+ - bugfixes and improvements
+
+## 1.6.3.1 - 23.07.2013
+
+ - display ads cachebuster placeholders are now properly replaced
+ 
+## 1.6.3 - 17.07.2013
+
+ - bugfixes and improvements
+
+## 1.6.2.1 - 02.07.2013
+
+ - ad playback resumes (if it was paused) when returning to the app
+
+## 1.6.2 - 01.07.2013
+
+ - new sdk browser that replaces the clickthru view
+ - delegate method to notify about a skipped ad
+ - InstreamController no longer checks conformsToProtocol to allow delegate casts
+ - menu extension improvements
+ - html/text display ads are now properly displayed
+ - bugfixes and improvements
+
+## 1.6.1 - 23.05.2013
+
+ - removed call to uniqueIdentifier
+ - menu extension positioning fixes
+ 
+## 1.6.0 - 06.05.2013
+
+ - multiple display ads display now properly
+ - multiple issues with display ads corrected
+ - click thru opening view can now be specified: -(UIView *)clickThruViewForInstreamController:
+ - accidential click thru protection by showing an alert, customizable with: -(BOOL)instreamControllerShouldOpenClickThruURL:
+ - sequencing bugfixes
+ - general bug fixes and improvements
+
+## 1.5.0 - 07.03.2013
+
+ - added support for MRAID 2.0 display ads
+ - added support for standard display ads
+ - click thru is no longer activateable before the ad starts playing
+ 
+## 1.5.0-RC1 - 07.02.2013
+
+ - support for display ads (MRAID 1.0) added
+ - crash fixed when deallocating the SCInstreamController
+ - VAST2 Tracking Events are now publicly available
+ - willPlayAdInSlot notifcation added to SCInstreamDelegate
+ - import organization and header fixes for older Xcode versions
+ - symbol conflicts resolved
+
+## 1.3.0 - 21.12.2012
+
+ - New config option to decide whether StaticResource Overlays appear on top or bottom
+ - fixed ad countdown freezing
+ - various bug fixes and improvements
+ 
+ + new examples are available
+ 	- using the SCInstreamSDK as Interstitial Ad
+ 	- using the SCInstreamSDK to show an ad on app launch
+
+## 1.2.0 - 31.10.2012
+
+ - ad background is shown for the entire ad block
+ - ad calls can be added with an Timestamp in addition to percentages
+ - udid added to url enrichment
+ - ad calls are automatically reset after the block finished, so they play again the next time
+ - IFrameResource and HTMLResource NonLinear support added
+ - adCountdown added
+ - inventory switch added, play n ads successfully from x ad calls or until none are left
+ - experimental mraid support
+ - static images can now play as linear slot
+ - advertiser branding
+
+## 1.1.1 - 09.10.2012
+
+ - user-agent is now applied to all requests to the ad server, if enabled
+
+## 1.1.0 - 17.09.2012
+
+ - NonLinear StaticResource Image Tags supported
+ - Full ad sequencing implemented
+ 	- Preroll, Overlay, Midroll, Overlay, Postroll
+ - Support for Ad blocks added
+ 	- allows for multiple linear slots to run
+ - various bug fixes and improvements
+ 
+## 1.0.0 - 04.09.2012
+
+ - initial release
+ - support for preroll and postroll

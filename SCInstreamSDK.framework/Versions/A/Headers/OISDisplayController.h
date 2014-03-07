@@ -59,11 +59,11 @@ __attribute__((visibility("default")))
  *
  * @see SCDisplayConfig::insertDisplayAdURL:
  */
-@property (nonatomic, retain, readonly) OISDisplayConfig *config;
+@property (nonatomic, strong, readonly) OISDisplayConfig *config;
 
-@property (nonatomic, retain, readonly) UIView *adView;
+@property (nonatomic, strong, readonly) UIView *adView;
 
-@property (nonatomic, assign) id<SCDisplayDelegate> delegate; // must be specified via initializer method.
+@property (nonatomic, weak) id<SCDisplayDelegate> delegate; // must be specified via initializer method.
 
 @end
 

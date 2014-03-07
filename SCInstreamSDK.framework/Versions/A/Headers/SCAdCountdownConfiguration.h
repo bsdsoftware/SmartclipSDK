@@ -94,7 +94,7 @@ typedef enum SCAdCountdownPosition {
  *
  * default: UITextAlignmentCenter
  */
-@property (nonatomic, assign) UITextAlignment textAlignment;
+@property (nonatomic, assign) NSTextAlignment textAlignment;
 
 /**
  * position of the AdCountdown @see SCAdCountdownConfiguration::SCAdCountdownPosition

@@ -76,6 +76,9 @@ extern void SCVAST2PostClickTrackingTrackEventNotification(id sender);
 extern NSString * const SCClickThruWindowDidAppearNotification;
 extern NSString * const SCClickThruWindowDidDisappearNotification;
 
+extern NSString * SCInstreamSDKVersion();
+extern void SCInstreamSDKPrintVersion();
+
 /**
  * @}
  */
