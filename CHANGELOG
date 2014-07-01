@@ -1,5 +1,13 @@
 # SCInstreamSDK
 
+## 1.8.3 - 16.05.2014
+
+ - fixed potential crash when requesting an ad and immediately canceling again
+
+## 1.8.0 - 18.03.2014
+
+ - added instreamController:didStartAdInSlot: delegate method
+
 ## 1.7.5 - 18.02.2014
 
  - fixed a multithreading issue

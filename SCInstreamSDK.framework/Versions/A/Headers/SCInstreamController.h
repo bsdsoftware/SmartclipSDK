@@ -137,13 +137,17 @@ __attribute__((visibility("default")))
  */
 - (void)skipAfter:(NSTimeInterval)delay;
 
-/** displays a button to skip the ad at the top left corner of the ad
+/**
+ * displays a button to skip the ad at the top left corner of the ad
+ * the button will show instantly
  *
  * @note: non-linear ads will have a close button by default 
  */
 - (void)showSkipButton;
 
-/** displays a button to skip the ad after the specified delay, at the top left corner of the ad
+/**
+ * displays a button to skip the ad after the specified delay, at the top left corner of the ad
+ * the delay will start when the ad starts to play
  *
  * @note: non-linear ads will have a close button by default
  */

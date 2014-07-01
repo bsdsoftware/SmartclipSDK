@@ -84,7 +84,11 @@ __attribute__((visibility("default")))
  */
 - (void)instreamController:(SCInstreamController *)controller willPlayAdInSlot:(SCSlotType)slot;
 
+- (void)instreamController:(SCInstreamController *)controller didStartAdInSlot:(SCSlotType)slot;
+
 - (void)instreamController:(SCInstreamController *)controller didSkipAdInSlot:(SCSlotType)slot;
+
+- (void)instreamController:(SCInstreamController *)controller didFailToPlayAdInSlot:(SCSlotType)slot;
 
 @required
 
