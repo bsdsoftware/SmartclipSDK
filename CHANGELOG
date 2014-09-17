@@ -1,5 +1,10 @@
 # SCInstreamSDK
 
+## 1.8.5 - 26.08.2014
+
+ - fixed a bug where playback was not resumed when the buffer was emptied
+ - fixed a possible retain cycle
+
 ## 1.8.3 - 16.05.2014
 
  - fixed potential crash when requesting an ad and immediately canceling again
