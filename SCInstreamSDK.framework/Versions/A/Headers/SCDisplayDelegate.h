@@ -37,6 +37,9 @@ __attribute__((visibility("default")))
 
 @optional
 
+- (void)displayController:(OISDisplayController *)controller willExpandToFrame:(CGRect)frame;
+- (BOOL)displayControllerAllowExpandAd:(OISDisplayController *)controller;
+
 - (void)displayControllerDidFailLoad:(OISDisplayController *)controller __deprecated;
 
 @end

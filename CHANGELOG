@@ -1,5 +1,14 @@
 # SCInstreamSDK
 
+## 1.9.1 - 17.10.2014
+
+ - added armv7s slice back
+
+## 1.9.0 - 13.10.2014
+
+ - fixed a crash under iOS8
+ - added m3u8 support
+
 ## 1.8.5 - 26.08.2014
 
  - fixed a bug where playback was not resumed when the buffer was emptied
