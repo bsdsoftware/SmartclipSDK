@@ -249,4 +249,6 @@ __attribute__((visibility("default")))
  */
 @property (nonatomic, retain, readonly) SCAdLabelConfiguration *adLabelConfiguration;
 
+@property (nonatomic, assign) UIViewController *presentingController;
+
 @end

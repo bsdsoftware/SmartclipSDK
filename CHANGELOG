@@ -1,8 +1,15 @@
 # SCInstreamSDK
 
-## 1.9.1 - 17.10.2014
+## 1.9.2 - 05.12.2014
 
- - added armv7s slice back
+ - using UIAlertController for iOS8
+   (if using iOS8 please set config.presentingController otherwise no Alert will be shown)
+ - adAutostart is temporarily unchangeable and will always be YES in addition
+   preparedToPlay will now fire in the normal event chain
+
+## 1.9.1 - 17.10.2014
+ 
+- added armv7s slice back
 
 ## 1.9.0 - 13.10.2014
 
